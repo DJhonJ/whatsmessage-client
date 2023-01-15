@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PublicLayout.Master.cs" Inherits="UI.Layouts.PublicLayout" %>
+
+<!DOCTYPE html>
+<html translate="no">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/reset.css" />
+    <link rel="stylesheet" href="../Styles/main.css" />
+    <title>WhatsMessage</title>
+</head>
+<body id="body" runat="server">
+    <main>
+        <asp:ContentPlaceHolder ID="ContentMain" runat="server"></asp:ContentPlaceHolder>
+    </main>
+
+    <script refer type="text/javascript" src="../Scripts/Lib/qrious.min.js"></script>
+    <script refer type="text/javascript" src="../Scripts/krequest.js"></script>
+    <script refer type="text/javascript" src="../Scripts/main.js"></script>
+</body>
+</html>
